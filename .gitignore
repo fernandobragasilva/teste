@@ -1,0 +1,13 @@
+* text=auto *.css linguist-vendored *.scss linguist-vendored
+# Ignorando arquivos do netbeans
+nbproject/*
+
+# Arquivos do Laravel
+.env
+node_modules
+vendor
+
+# Ignorando arquivos do eclipse
+.project
+.buildpath
+.settings/

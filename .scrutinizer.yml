@@ -1,2 +1,5 @@
 checks:
     php: true
+php_code_sniffer:
+    config:
+        standard: PSR2

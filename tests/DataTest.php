@@ -28,7 +28,7 @@ class DataTest extends TestCase
         // Arrange
         $datetime = '2016-13-04';
         // Assert
-        $this->assertEquals(Data::formatarDataRetorno($datetime), '2016-13-04');
+        $this->assertEquals(Data::formatarDataRetorno($datetime), null);
     }
 
     /**

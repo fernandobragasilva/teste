@@ -1,11 +1,7 @@
-<?php
+<?php namespace App\Http\Controllers;
 
-namespace App\Http\Controllers;
-
-class HomeController extends Controller
-{
-    public function index()
-    {
+class HomeController extends Controller{
+    public function index()    {
         return view('home');
     }
 }

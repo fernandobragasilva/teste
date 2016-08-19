@@ -6,7 +6,7 @@ class HomeController extends Controller
 {
     public function index()
     {
-        list() = array('Café', 'marrom', 'cafeína');
-        return view('home');
+        $codigo = password_hash("rasmuslerdorf", PASSWORD_DEFAULT);
+        return view('home')->with("teste", $codigo);
     }
 }

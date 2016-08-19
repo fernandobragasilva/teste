@@ -8,4 +8,10 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    function handler(Throwable $e)
+    {
+
+        return;
+    }
 }

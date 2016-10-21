@@ -35,7 +35,6 @@
 
          <script type="text/javascript" src="/js/app.js"></script>
         @yield('scripts-plugins')
-        <script src="/js/main.js"></script>
         @yield('scripts')
     </body>
 </html>

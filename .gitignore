@@ -1,11 +1,16 @@
 * text=auto *.css linguist-vendored *.scss linguist-vendored
 # Ignorando arquivos do netbeans
 nbproject/*
+public/js/*
 
 # Arquivos do Laravel
 .env
 node_modules
 vendor
+
+# Source maps
+*.css.map
+*.js.map
 
 # Ignorando arquivos do eclipse
 .project

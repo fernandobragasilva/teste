@@ -1,6 +1,6 @@
-import Vue from 'vue'
+import Vue from 'vue/dist/vue'
         new Vue({
-            el: '.container',
+            el: '#container',
             data: {
                 message: 'Funciona!'
             }

@@ -4,6 +4,7 @@ namespace Teste.Modulos {
         public static inicializar() {
             var main = new Teste.Main();
             main.inicializarEventos();
+            console.log("funcionou111");
         }
     }
 }

@@ -1,12 +1,12 @@
 @extends('layouts.padrao')
 @section('scripts')
-<script src="/js/main.js" />
-<script type="text/javascript">
-    Teste.Util.iniciarModulo("Main");
-</script>
+    <script type="text/javascript" src="/js/inicio.js"></script>
+    <script type="text/javascript">
+        Teste.Util.iniciarModulo("Main");
+    </script>
 @endsection
 @section('content')
-<div class="container conteudo">
+<div id="container" class="container conteudo">
     <div class="container">&nbsp;</div>
     <div class="container">&nbsp;</div>
     <div class="container">&nbsp;</div>
